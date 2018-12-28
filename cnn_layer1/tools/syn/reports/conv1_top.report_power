@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+        -verbose
+Design : conv1_top
+Version: L-2016.03-SP3
+Date   : Mon May 21 11:54:25 2018
+****************************************
+
+
+Library(s) Used:
+		xxx
+
+Operating Conditions: typical_1.00   Library: xxx
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.75 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1uW
+
+
+  Cell Internal Power  =  19.1796 mW   (98%)
+  Net Switching Power  = 347.3281 uW    (2%)
+                         ---------
+Total Dynamic Power    =  19.5269 mW  (100%)
+
+Cell Leakage Power     =  48.1896 uW
+
+                 Internal         Switching           Leakage            Total                         Cell
+Power Group      Power            Power               Power              Power   (   %    )  Attrs  Count
+---------------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+black_box          0.0000        2.2464e-02            0.0000        2.2464e-02  (   0.11%)            24
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+register          18.9637        5.5005e-02           30.1678           19.0488  (  97.31%)            26297
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+combinational      0.2155            0.2699           18.0218            0.5034  (   2.57%)            79827
+---------------------------------------------------------------------------------------------------------
+Total             19.1793 mW         0.3473 mW        48.1896 uW        19.5747 mW
+1

@@ -1,0 +1,2110 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'conv1_top' contains 5 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : conv1_top
+Version: L-2016.03-SP3
+Date   : Mon May 21 11:53:38 2018
+****************************************
+
+
+    Net: linebuff_1F_1x7_inst/pool_line_buff_inst[0].conv1_pool_line_buff_inst/line_buff_regs_inst/n484
+
+    max_capacitance       62.83
+  - Capacitance           88.84
+  ------------------------------
+    Slack                -26.01  (VIOLATED)
+
+
+    Net: n4844
+
+    max_capacitance       47.12
+  - Capacitance           48.10
+  ------------------------------
+    Slack                 -0.97  (VIOLATED)
+
+
+    Net: linebuff_1F_1x7_inst/n2
+
+    max_capacitance      172.09
+  - Capacitance          172.93
+  ------------------------------
+    Slack                 -0.85  (VIOLATED)
+
+
+    Net: n4845
+
+    max_capacitance       31.42
+  - Capacitance           31.89
+  ------------------------------
+    Slack                 -0.48  (VIOLATED)
+
+
+    Net: n4925
+
+    max_capacitance       61.64
+  - Capacitance           62.03
+  ------------------------------
+    Slack                 -0.39  (VIOLATED)
+
+
+    Net: n4846
+
+    max_capacitance       47.12
+  - Capacitance           47.31
+  ------------------------------
+    Slack                 -0.18  (VIOLATED)
+
+
+    Net: n4906
+
+    max_capacitance       65.75
+  - Capacitance           65.93
+  ------------------------------
+    Slack                 -0.17  (VIOLATED)
+
+
+    Net: n4873
+
+    max_capacitance       61.64
+  - Capacitance           61.80
+  ------------------------------
+    Slack                 -0.16  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][0][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[0][1][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][0][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[1][1][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][0][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[2][1][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][0][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[3][1][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][0][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[4][1][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][0][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][0]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][1]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][2]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][3]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][4]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][5]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][6]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][7]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][8]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][9]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][10]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][11]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][12]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][13]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][14]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][15]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][16]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][17]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][18]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][19]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_out_o[5][1][20]
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Net: pool_valid_out_o
+
+    Capacitance            0.00
+  - min_capacitance        0.08
+  ------------------------------
+    Slack                 -0.08  (VIOLATED)
+
+
+    Design: conv1_top
+
+    max_leakage_power          0.00
+  - Current Leakage Power     53.57
+  ----------------------------------
+    Slack                    -53.57  (VIOLATED)
+
+
+1
